@@ -7,3 +7,13 @@ img { max-width: 100%; }
 }
 #black-banner img { height: 15px; }
 #img-lens { height: 30px; }
+
+/* game banners  */
+.game-banner { color: white; }
+#returnal { 
+    background-image: url("img/jumbo-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#returnal .row { min-height: 590px; }
