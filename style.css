@@ -1,0 +1,12 @@
+/* utilities */
+img { max-width: 100%; }
+
+/* header */
+#black-banner { 
+    background-color: black;
+    min-height: 100px;
+}
+
+#black-banner img {
+    height: 15px;
+}
