@@ -3,6 +3,12 @@ a {
     text-decoration: none;
     color: currentColor;
 }
+
+ul {
+    list-style-type: none;
+    color: currentColor;
+}
+
 /* utilities */
 img { max-width: 100%; }
 
@@ -54,3 +60,20 @@ img { max-width: 100%; }
 /* social */
 #social { min-height: 250px; }
 #social figure { max-width: 100px; }
+
+/* footer */
+footer { background-color: #00439C; 
+min-height: 250px;
+}
+
+footer img {
+    height: 100px;
+}
+
+/* #disclaimer a {
+    text-decoration: underline;
+} */
+
+#disclaimer img {
+    height: 50px;
+}
