@@ -50,3 +50,7 @@ img { max-width: 100%; }
 
 /* ps now */
 #ps-now { background-color: #161C3B; }
+
+/* social */
+#social { min-height: 250px; }
+#social figure { max-width: 100px; }
