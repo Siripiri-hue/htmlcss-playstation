@@ -46,3 +46,8 @@ img { max-width: 100%; }
     border-radius: 10px;
     overflow: hidden;
 }
+
+/* ps plus */
+#ps-plus {
+    background-color: #BEBCBB;
+}
