@@ -1,3 +1,8 @@
+/* reset */
+a {
+    text-decoration: none;
+    color: currentColor;
+}
 /* utilities */
 img { max-width: 100%; }
 
