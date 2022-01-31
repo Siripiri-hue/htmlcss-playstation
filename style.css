@@ -36,3 +36,13 @@ img { max-width: 100%; }
     border-radius: 10px;
     overflow: hidden;
 }
+
+/* nuove uscite */
+#new-releases {
+    background-color: #1F1F1F;
+}
+#new-releases figure {
+    max-width: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
