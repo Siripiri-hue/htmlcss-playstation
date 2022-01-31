@@ -17,3 +17,10 @@ img { max-width: 100%; }
     background-position: center;
 }
 #returnal .row { min-height: 590px; }
+
+/* highlightled */
+#highlightled figure {
+    max-width: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
