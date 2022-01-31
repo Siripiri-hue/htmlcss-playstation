@@ -38,9 +38,7 @@ img { max-width: 100%; }
 }
 
 /* nuove uscite */
-#new-releases {
-    background-color: #1F1F1F;
-}
+#new-releases { background-color: #1F1F1F; }
 #new-releases figure {
     max-width: 200px;
     border-radius: 10px;
@@ -48,6 +46,7 @@ img { max-width: 100%; }
 }
 
 /* ps plus */
-#ps-plus {
-    background-color: #BEBCBB;
-}
+#ps-plus { background-color: #BEBCBB; }
+
+/* ps now */
+#ps-now { background-color: #161C3B; }
