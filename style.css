@@ -53,27 +53,29 @@ img { max-width: 100%; }
 
 /* ps plus */
 #ps-plus { background-color: #BEBCBB; }
+#plus-logo { max-width: 350px; }
+#ps-plus figure:last-of-type { margin-bottom: 0; }
 
 /* ps now */
 #ps-now { background-color: #161C3B; }
+#now-logo { max-width: 350px; }
 
 /* social */
 #social { min-height: 250px; }
 #social figure { max-width: 100px; }
 
 /* footer */
-footer { background-color: #00439C; 
-min-height: 250px;
+footer {
+    background-color: #00439C;
+    font-size: 12px; 
+    min-height: 250px;
 }
 
-footer img {
-    height: 100px;
-}
+#foot-logo { height: 100px; }
+#language img { height: 15px; }
+#disclaimer img { height: 50px; }
 
 /* #disclaimer a {
     text-decoration: underline;
 } */
 
-#disclaimer img {
-    height: 50px;
-}
