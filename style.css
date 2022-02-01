@@ -19,6 +19,17 @@ img { max-width: 100%; }
 #black-banner img { height: 15px; }
 #img-lens { height: 30px; }
 
+/* nav */
+.dropdown {
+    position: static !important;
+}
+  
+.dropdown-menu {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+    margin-top: 0px !important;
+    width: 100% !important;
+}
+
 /* game banners  */
 .game-banner { color: white; }
 #returnal { 
