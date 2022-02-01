@@ -41,6 +41,28 @@ img { max-width: 100%; }
     max-width: 200px;
     border-radius: 10px;
     overflow: hidden;
+    /* transform: translateY(50px); */
+}
+
+#highlightled figure:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+#highlightled .active figure {
+    border: 3px solid #00439C;
+}
+
+
+/* ps5 */
+#ps5-accessories figure { opacity: 0.5; }
+#ps5-accessories .active figure {
+    opacity: 1;
+    border-bottom: 2px solid #00439C;
+}
+#ps5-accessories figure:hover { 
+    opacity: 1;
+    cursor: pointer;
 }
 
 /* nuove uscite */
@@ -51,10 +73,21 @@ img { max-width: 100%; }
     overflow: hidden;
 }
 
+#new-releases figure:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 /* ps plus */
 #ps-plus { background-color: #BEBCBB; }
 #plus-logo { max-width: 350px; }
 #ps-plus figure:last-of-type { margin-bottom: 0; }
+
+/* sconti */
+#discounts figure:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
 
 /* ps now */
 #ps-now { background-color: #161C3B; }
@@ -63,6 +96,10 @@ img { max-width: 100%; }
 /* social */
 #social { min-height: 250px; }
 #social figure { max-width: 100px; }
+#social figure:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
 
 /* footer */
 footer {
